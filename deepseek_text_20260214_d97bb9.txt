@@ -1,0 +1,13 @@
+pdf-tools/
+├── public/          # Static files (robots.txt, sitemap.xml, etc.)
+├── src/
+│   ├── app/         # Next.js App Router pages and API routes
+│   ├── components/  # React components
+│   ├── lib/         # Utilities, API clients, constants
+│   ├── hooks/       # Custom React hooks
+│   ├── types/       # TypeScript type definitions
+│   └── styles/      # Global styles
+├── .env.example     # Environment variables example
+├── next.config.js   # Next.js configuration
+├── tailwind.config.js # Tailwind CSS configuration
+└── tsconfig.json    # TypeScript configuration

@@ -1,0 +1,88 @@
+pdf-tools/
+├── public/
+│   ├── robots.txt
+│   ├── sitemap.xml
+│   ├── favicon.ico
+│   └── ads.txt
+├── src/
+│   ├── app/
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   ├── globals.css
+│   │   ├── providers.tsx
+│   │   ├── [tool]/
+│   │   │   └── page.tsx
+│   │   ├── api/
+│   │   │   ├── pdf/
+│   │   │   │   ├── merge/
+│   │   │   │   │   └── route.ts
+│   │   │   │   ├── split/
+│   │   │   │   │   └── route.ts
+│   │   │   │   ├── compress/
+│   │   │   │   │   └── route.ts
+│   │   │   │   ├── pdf-to-word/
+│   │   │   │   │   └── route.ts
+│   │   │   │   ├── word-to-pdf/
+│   │   │   │   │   └── route.ts
+│   │   │   │   ├── jpg-to-pdf/
+│   │   │   │   │   └── route.ts
+│   │   │   │   ├── pdf-to-jpg/
+│   │   │   │   │   └── route.ts
+│   │   │   │   ├── rotate/
+│   │   │   │   │   └── route.ts
+│   │   │   │   ├── protect/
+│   │   │   │   │   └── route.ts
+│   │   │   │   └── unlock/
+│   │   │   │       └── route.ts
+│   │   ├── privacy-policy/
+│   │   │   └── page.tsx
+│   │   ├── terms/
+│   │   │   └── page.tsx
+│   │   ├── contact/
+│   │   │   └── page.tsx
+│   │   └── about/
+│   │       └── page.tsx
+│   ├── components/
+│   │   ├── layout/
+│   │   │   ├── Header.tsx
+│   │   │   ├── Footer.tsx
+│   │   │   ├── Sidebar.tsx
+│   │   │   └── ThemeToggle.tsx
+│   │   ├── ui/
+│   │   │   ├── Button.tsx
+│   │   │   ├── Card.tsx
+│   │   │   ├── Container.tsx
+│   │   │   └── AdSlot.tsx
+│   │   ├── tools/
+│   │   │   ├── FileUploader.tsx
+│   │   │   ├── ProgressBar.tsx
+│   │   │   ├── ToolLayout.tsx
+│   │   │   └── DownloadButton.tsx
+│   │   └── seo/
+│   │       ├── SchemaMarkup.tsx
+│   │       └── JsonLd.tsx
+│   ├── lib/
+│   │   ├── api/
+│   │   │   └── ilovepdf.ts
+│   │   ├── utils/
+│   │   │   ├── fileHandler.ts
+│   │   │   ├── rateLimiter.ts
+│   │   │   └── validation.ts
+│   │   └── constants/
+│   │       └── tools.ts
+│   ├── hooks/
+│   │   ├── useFileUpload.ts
+│   │   ├── useTheme.ts
+│   │   └── useProcessing.ts
+│   ├── types/
+│   │   └── index.ts
+│   └── styles/
+│       └── themes.css
+├── .env.local
+├── .env.example
+├── next.config.js
+├── tailwind.config.js
+├── tsconfig.json
+├── package.json
+├── middleware.ts
+└── README.md
